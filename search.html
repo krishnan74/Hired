@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="functions.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Grotesk">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo_div"><img class="logo" src="./images/logo2.jpg" alt="">
+        <p>HIRED</p>
+        </div>
+        <div class="links">
+        <div onclick="redirectTo('index.html')">Home</div>
+          <div onclick="redirectTo('search.html')">Search</div>
+          <div onclick="redirectTo('login.html')">Login</div>
+        </div>
+    </div>
+
+    <header>
+
+      <div class="header_text">
+        <h1 >Candidate Search</h1>
+      </div>
+        
+        <p id="header_desc">Find candidates
+            based on location and job roles</p>
+
+        <div class="line">.</div>
+        
+    
+        <div class="search-container">
+            <input type="text" id="location-input" placeholder="Location" list="location-options">
+                <datalist id="location-options">
+                <option value="New York">
+                <option value="San Francisco">
+                <option value="London">
+                <option value="Sydney">
+                <option value="Toronto">
+                <option value="Paris">
+                <option value="Tokyo">
+                <option value="Berlin">
+                <option value="Dubai">
+                <option value="Barcelona">
+                <option value="Chicago">
+                <option value="Los Angeles">
+                <option value="Miami">
+                <option value="Vancouver">
+                <option value="Melbourne">
+                <option value="Dublin">
+                <option value="Stockholm">
+                <option value="Amsterdam">
+                <option value="Oslo">
+                <option value="Zurich">
+                </datalist>
+    
+            
+            <input type="text" id="role-input" placeholder="Job Role" list="role-options">
+            <datalist id="role-options">
+                <option value="Software Engineer">
+                <option value="Data Analyst">
+                <option value="Front-end Developer">
+                <option value="UI/UX Designer">
+                <option value="Full-stack Developer">
+            </datalist>
+            
+            <div id="search_btn_div">
+                <img src="./images/search_icon.png" alt="">
+            </div>  
+        </div>
+    </header>
+    
+    
+    <div class="candidates_div">
+        <p id="candidate_header">List of Candidates</p>
+        <div id="candidates-list"></div>
+    </div>
+    
+      
+</body>
+<script src="search.js"></script>
+
+</html>

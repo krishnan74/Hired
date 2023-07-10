@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Grotesk">
+    <script src="functions.js"></script>
+
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo_div"><img class="logo" src="./images/logo2.jpg" alt="">
+        <p>HIRED</p>
+        </div>
+        <div class="links">
+          <div onclick="redirectTo('index.html')">Home</div>
+          <div onclick="redirectTo('search.html')">Search</div>
+          <div onclick="redirectTo('login.html')">Login</div>
+        </div>
+    </div>
+
+
+    <header>
+      <div class="header_text">
+        <h1 >Transform Your Hiring Process with Our Cutting-Edge Recruitment Solution</h1>
+      </div>
+        
+        <p id="header_desc">Finding the right talent is crucial for the growth and success of your business. At <span>Hired</span>, we provide a comprehensive digital hiring platform designed to streamline your recruitment process and connect you with top talent from around the world.</p>
+        <div class="arrow_div" onclick="scrollToKeyFeatures()"> 
+          <div class="arrow_left"></div>
+          <div class="arrow_right"></div>
+        </div>
+        <div class="line"></div>
+        
+      </header>
+    <h2  id="key-features">Key Features</h2>
+      <section class="feature_div">
+        
+        
+        <div class="feature_card ">
+          <h3 class="feature_card_header">Seamless Collaboration</h3>
+          <p class="feature_card_desc">Foster efficient communication and collaboration between hiring managers and HR professionals.</p>
+          <button class="feature_card_button">Try Now!</button>
+        </div>
+
+        <div class="feature_card ">
+          <h3 class="feature_card_header">Advanced Candidate Search</h3>
+          <p class="feature_card_desc">Instantly access a vast pool of qualified candidates with customizable filters.</p>
+          <button onclick="redirectTo('search.html')" class="feature_card_button">Try Now!</button>
+        </div>
+        <div class="feature_card ">
+          <h3 class="feature_card_header">Automated Screening</h3>
+          <p class="feature_card_desc">Utilize AI-powered algorithms to screen resumes and shortlist top candidates effortlessly.</p>
+          <button class="feature_card_button">Try Now!</button>
+        </div>
+        
+      </section>
+    
+    
+      <section id="start">
+        <h2 id="start_text">Ready to Get Started?</h2>
+        <div id="start_button" onclick="redirectTo('login.html')">Create an account</div>
+      </section>
+    </body>
+    </html>
+</body>
+</html>

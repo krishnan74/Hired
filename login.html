@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <script src="functions.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Grotesk">
+
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo_div"><img class="logo" src="./images/logo2.jpg" alt="">
+      <p>HIRED</p>
+    </div>
+    <div class="links">
+      <div onclick="redirectTo('index.html')">Home</div>
+      <div onclick="redirectTo('search.html')">Search</div>
+      <div onclick="redirectTo('login.html')">Login</div>
+    </div>
+    
+  </div>
+  <div class="line">.</div>
+  <form id="loginForm">
+    <h1>Login</h1>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <div id="remember"><input type="radio"><p>Remember me</p></div>
+    <button type="submit">Login</button>
+    <a src="#">Forgot your password ?</a>
+  </form>
+
+  <p id="account_text">Don't have an account? <a>Sign up</a> for Hired</p>
+
+</body>
+</html>
