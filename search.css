@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: 'Space Grotesk';
     overflow-x: hidden;
+    background-image: url('./images/bg2.jpg');
+
 }
 
 body, html {
@@ -175,6 +177,10 @@ header{
     height: 20px;
     width: 20px;
     margin: auto;
+}
+
+.candidates_div{
+
 }
 
 #candidate_header{

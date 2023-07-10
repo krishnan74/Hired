@@ -3,6 +3,8 @@ body{
   padding: 0;
   font-family: 'Space Grotesk';
   overflow-x: hidden;
+  background-image: url('./images/bg2.jpg');
+
 }
 
 body, html {
@@ -112,7 +114,6 @@ header{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  background-attachment: fixed; 
 
 }
 
@@ -203,11 +204,11 @@ header > p{
   justify-content: space-around;
   height: 506px;
   width: 300px;
-  border: 1.3px solid #DA0C09;
+  
+  border: 1.3px solid black;
   color: #333;
   text-align: center;
   animation: heartbeat_border 1.5s infinite;
-  background-image: url('./images/bg2.jpg');
 }
 
 .feature_card_button{

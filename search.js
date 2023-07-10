@@ -120,7 +120,7 @@ function displayCandidates(candidates) {
     candidates.forEach(candidate => {
       const candidateCard = document.createElement('div');
       candidateCard.classList.add('candidate-card');
-      candidateCard.style.backgroundImage = "url('./images/bg2.jpg')";
+      //candidateCard.style.backgroundImage = "url('./images/bg2.jpg')";
 
 
       const name = document.createElement('h3');

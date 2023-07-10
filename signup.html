@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
+  <title>Sign Up</title>
   <link rel="stylesheet" type="text/css" href="login.css">
   <script src="functions.js"></script>
-  <link rel="shortcut icon" href="./images/logo2.jpg" type="image/x-icon">
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Grotesk">
+  <link rel="shortcut icon" href="./images/logo2.jpg" type="image/x-icon">
+  
 
 </head>
 <body>
@@ -23,18 +23,19 @@
   </div>
   <div class="line">.</div>
   <form id="loginForm">
-    <h1>Login</h1>
+    <h1>Sign Up</h1>
 
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
-    <div id="remember"><input type="radio"><p>Remember me</p></div>
-    <button type="submit" >Login</button>
-    <a src="#">Forgot your password ?</a>
+    <label for="password">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="password" required>
+    <button type="submit">SignUp</button>
   </form>
 
-  <p id="account_text">Don't have an account? <a href="signup.html">Sign up</a> for Hired</p>
+  <p id="account_text">Already have an account? <a href="login.html">Login here</a></p>
 
 </body>
+<script src="signup.js"></script>
 </html>
